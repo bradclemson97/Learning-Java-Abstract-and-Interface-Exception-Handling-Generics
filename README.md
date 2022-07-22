@@ -8,6 +8,8 @@ An interface class is similiar to an abstratc class but if you declare any field
 
 Generics offer the ability to have one class for this which is flexible for many different data types. <?> defines the type parameter, it represents the type of thing the generics (priner) class is going to hold (and print). In this case, type T is going to be some type of animal. 
 
+The main class also includes exception handling. An exception is a generally unwanted event that interrupts the normal flow of your program e.g. int myInt = Integer.parseInt("pants"); would throw an exception when running because we can't make a number out of 'pants'. instead of it interrupting the program when running, we can handle the exception with try-catch code blocks.
+
 The application also makes use of Lombok to add getters and setters, an equals method and string method to the main class. 
 
 ## Getting Started
